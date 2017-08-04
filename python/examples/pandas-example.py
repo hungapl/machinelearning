@@ -1,4 +1,4 @@
-# Example of reading files
+# Example of using pandas
 
 !conda install scikit-learn
 !conda install pandas
@@ -24,7 +24,7 @@ iris.describe() # Statistical summary
 iris.sort_values('species') # Sort by class name
 iris.iloc[1, 1] = np.nan # Update a field to NaN
 iris.head(10)
-iris.dropna() # Drop observation with NaN in one of the columns
+iris = iris.dropna() # Drop observation with NaN in one of the columns
 len(iris) # Removed one observation
 
 # Plot graphs
