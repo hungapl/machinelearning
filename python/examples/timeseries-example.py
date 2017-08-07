@@ -1,5 +1,6 @@
 !conda install pandas
 !conda install scipy
+!conda install bokeh
 
 import os
 import pandas as pd
